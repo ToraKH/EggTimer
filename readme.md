@@ -6,7 +6,7 @@ Tora K. Homme
 
 ## How to run code
 ### Using link
-Use the link here to access it on any device:
+Use the link here to access it on any device:  https://torakh.github.io/EggTimer/
 
 ### Locally
 Navigate to the folder and double-click on the index.html file. This will open up the timer on your browser.
