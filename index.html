@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <audio id="endOfTimer" src="rooster.wav"></audio>
+
+</head>
+<body>
+    <header>
+        <h1 class="font-effect-outline"> 🥚 Egg Timer 🥚 </h1>
+    </header>
+
+    <nav>
+        <button data-click="HardBoiled" >Hard boiled</button> <!-- 10 min -->
+        <button data-click="SoftBoiled">Soft boiled</button> <!-- 8 min -->
+        <button data-click="Runny">Runny yolk</button> <!-- 6 min -->
+        <br>
+        
+    </nav>
+
+
+    <main>
+        <p id="chosenTime"></p>
+        <p id="timelefttxt"> Time left: </p>
+        <p id="countdown"></p>
+        <script src="script.js"></script>
+        <button onclick="start()" id="startbtn">Start</button>
+        <button data-click="Default">Default</button>
+        <button onclick="stop()" id="stopbtn">Pause</button>
+        <!-- <img src="./egg.png" class="image"> -->
+    </main>
+
+    
+
+
+    <footer> 
+        <p> Rooster audio from <a href = "https://mixkit.co/free-sound-effects/alarm/">mixkit</a></p>
+    </footer>
+    
+</body>
+</html>
