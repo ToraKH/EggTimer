@@ -25,7 +25,7 @@ document.addEventListener('click', function (event){
         chooseTime.innerHTML = 'You chose 6 minutes';
     }
     if(type == 'Default'){
-        var startingMinutes = 0.1;
+        var startingMinutes = 8.5;
         chooseTime.innerHTML = 'You chose default time: 8½ minutes';
     }
     time = (startingMinutes || 0) * 60; //bruk 0 hvis ikke minutter er valgt
