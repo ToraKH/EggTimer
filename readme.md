@@ -1,6 +1,6 @@
 # Egg timer
 This is a timer for how long you should boil you eggs based on if you want them hard, soft or runny. 
-OBS! If you're not on the browser the whole time, the timer will not compute correctly!
+WARNING! If you're not on the browser the whole time, the timer will not compute correctly!
 ## Author
 Tora K. Homme
 
